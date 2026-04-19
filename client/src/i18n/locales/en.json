@@ -1,0 +1,292 @@
+{
+  "app": {
+    "name": "Learnify",
+    "tagline": "Learn smarter. Compete harder."
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "learn": "Learn",
+    "contest": "Contest",
+    "tutor": "AI Tutor",
+    "diagnostic": "Diagnostic",
+    "profile": "Profile",
+    "leaderboard": "Leaderboard",
+    "logout": "Log out"
+  },
+  "auth": {
+    "login": "Log in",
+    "register": "Sign up",
+    "logout": "Log out",
+    "email": "Email",
+    "username": "Username",
+    "password": "Password",
+    "confirmPassword": "Confirm password",
+    "forgotPassword": "Forgot password?",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "loginTitle": "Welcome back",
+    "loginSubtitle": "Log in to continue your learning streak",
+    "registerTitle": "Join Learnify",
+    "registerSubtitle": "Create your account and start learning today",
+    "language": "Preferred language",
+    "orContinueWith": "or continue with",
+    "errors": {
+      "invalidEmail": "Invalid email address",
+      "passwordTooShort": "Password must be at least 6 characters",
+      "usernameTooShort": "Username must be at least 2 characters",
+      "invalidCredentials": "Invalid email or password",
+      "emailTaken": "Email already in use",
+      "usernameTaken": "Username already taken"
+    }
+  },
+  "dashboard": {
+    "greeting": "Hey {{name}}",
+    "tabs": {
+      "progress": "Progress",
+      "skills": "Skills",
+      "recommendations": "AI Plan",
+      "activity": "Activity"
+    },
+    "metrics": {
+      "xp": "XP Points",
+      "score": "Avg Score",
+      "sessions": "Sessions",
+      "studyTime": "Study Time",
+      "minutes": "min this week"
+    },
+    "streak": {
+      "current": "{{days}} day streak",
+      "longest": "Best: {{days}} days",
+      "none": "Start your streak today!"
+    },
+    "level": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced",
+      "expert": "Expert",
+      "nextLevel": "{{xp}} XP to next level"
+    },
+    "chart": {
+      "weeklyScore": "Weekly Score",
+      "score": "Score %",
+      "sessions": "Sessions"
+    },
+    "skills": {
+      "mastered": "Mastered",
+      "inProgress": "In Progress",
+      "needsWork": "Needs Work",
+      "noSkills": "Complete sessions to track your skills"
+    },
+    "recommendations": {
+      "title": "AI Study Plan",
+      "urgency": {
+        "high": "High priority",
+        "medium": "Medium priority",
+        "low": "Low priority"
+      },
+      "launchSession": "Launch session",
+      "noRecommendations": "Great job! All your subjects are on track.",
+      "todaysPlan": "Today's plan",
+      "generating": "Generating your plan..."
+    },
+    "activity": {
+      "noActivity": "No activity yet. Start a session!",
+      "session": "Learning session",
+      "contest": "Contest",
+      "diagnostic": "Diagnostic test",
+      "xpEarned": "+{{xp}} XP",
+      "score": "{{correct}}/{{total}} correct"
+    }
+  },
+  "learn": {
+    "title": "Start learning",
+    "subject": "Subject",
+    "chapter": "Chapter",
+    "difficulty": {
+      "label": "Difficulty",
+      "easy": "Easy",
+      "medium": "Medium",
+      "hard": "Hard"
+    },
+    "questionCount": "Number of questions",
+    "generate": "Generate session",
+    "generating": "Generating your session...",
+    "question": "Question {{current}} of {{total}}",
+    "timeLeft": "Time left",
+    "submitAnswer": "Submit answer",
+    "correct": "Correct!",
+    "incorrect": "Incorrect",
+    "correctAnswer": "Correct answer",
+    "explanation": "Explanation",
+    "next": "Next question",
+    "finish": "Finish session",
+    "summary": {
+      "title": "Session complete!",
+      "score": "Your score",
+      "xpEarned": "XP earned",
+      "masteryDelta": "Mastery",
+      "tryAgain": "Try again (harder)",
+      "backToDashboard": "Back to dashboard",
+      "reviewAnswers": "Review answers"
+    },
+    "lesson": {
+      "title": "Lesson overview",
+      "keyPoints": "Key points",
+      "startQuiz": "Start quiz"
+    }
+  },
+  "contest": {
+    "title": "Contests",
+    "create": "Create contest",
+    "join": "Join contest",
+    "joinCode": "Join code",
+    "enterCode": "Enter join code (e.g. LRN-7X4K)",
+    "joinNow": "Join now",
+    "lobby": {
+      "title": "Contest lobby",
+      "waitingForHost": "Waiting for host to start...",
+      "participants": "Participants",
+      "online": "Online",
+      "launch": "Launch contest",
+      "generating": "AI is generating your questions...",
+      "ready": "Questions ready!"
+    },
+    "arena": {
+      "question": "Question {{current}} of {{total}}",
+      "timeLeft": "Time left",
+      "submit": "Lock answer",
+      "multiplier": "{{mult}}x points",
+      "leaderboard": "Live leaderboard",
+      "rank": "Rank",
+      "answered": "answered"
+    },
+    "results": {
+      "title": "Final results",
+      "podium": "Podium",
+      "yourScore": "Your score",
+      "yourRank": "Your rank",
+      "correct": "Correct answers",
+      "timeTaken": "Time taken",
+      "rematch": "Create rematch",
+      "share": "Share result",
+      "reviewAnswers": "Review answers",
+      "feedback": "AI Feedback",
+      "rankingTable": "Full ranking"
+    },
+    "status": {
+      "pending": "Waiting",
+      "active": "Live",
+      "finished": "Finished"
+    },
+    "form": {
+      "step1": "Configuration",
+      "step2": "Invite",
+      "step3": "Review",
+      "title": "Contest title",
+      "subject": "Subject",
+      "level": "Level",
+      "difficulty": "Difficulty",
+      "questionCount": "Questions",
+      "duration": "Duration (minutes)",
+      "questionTypes": "Question types",
+      "maxParticipants": "Max participants",
+      "generate": "Generate with AI",
+      "codeGenerated": "Join code generated!"
+    }
+  },
+  "tutor": {
+    "title": "AI Tutor",
+    "placeholder": "Ask me anything...",
+    "subject": "Subject",
+    "send": "Send",
+    "thinking": "Thinking...",
+    "suggestions": {
+      "explain": "Explain this concept",
+      "example": "Give me an example",
+      "exercise": "Create an exercise for me",
+      "review": "Review my understanding"
+    },
+    "welcome": "Hi! I'm your AI tutor. What would you like to learn today?"
+  },
+  "diagnostic": {
+    "title": "Diagnostic test",
+    "subtitle": "Let's assess your level in",
+    "start": "Start diagnostic",
+    "question": "Question {{current}} of {{total}}",
+    "analysing": "Analysing your results...",
+    "results": {
+      "title": "Your profile",
+      "recommendedLevel": "Recommended level",
+      "strengths": "Strengths",
+      "weaknesses": "Areas to improve",
+      "feedback": "Feedback",
+      "startLearning": "Start learning"
+    }
+  },
+  "profile": {
+    "title": "Profile",
+    "edit": "Edit profile",
+    "save": "Save changes",
+    "cancel": "Cancel",
+    "username": "Username",
+    "email": "Email",
+    "bio": "Bio",
+    "language": "Display language",
+    "stats": {
+      "totalXP": "Total XP",
+      "contestsWon": "Contests won",
+      "bestStreak": "Best streak",
+      "sessionsCompleted": "Sessions"
+    },
+    "achievements": "Achievements",
+    "notifications": "Notifications"
+  },
+  "leaderboard": {
+    "title": "Leaderboard",
+    "global": "Global",
+    "contests": "Contests",
+    "rank": "Rank",
+    "player": "Player",
+    "xp": "XP",
+    "level": "Level",
+    "streak": "Streak",
+    "wins": "Wins"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Retry",
+    "back": "Back",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "edit": "Edit",
+    "share": "Share",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "darkMode": "Dark mode",
+    "lightMode": "Light mode",
+    "french": "French",
+    "english": "English",
+    "noData": "No data yet",
+    "comingSoon": "Coming soon"
+  },
+  "errors": {
+    "notFound": "Page not found",
+    "unauthorized": "Please log in to continue",
+    "serverError": "Server error. Please try again.",
+    "networkError": "Network error. Check your connection.",
+    "generic": "Something went wrong. Please try again.",
+    "rateLimit": "Daily AI quota reached. Please try again tomorrow."
+  },
+  "toasts": {
+    "sessionComplete": "Session complete! +{{xp}} XP",
+    "contestJoined": "Joined contest successfully!",
+    "contestCreated": "Contest created!",
+    "profileSaved": "Profile saved",
+    "languageChanged": "Language updated",
+    "copied": "Copied to clipboard",
+    "error": "Error occurred"
+  }
+}

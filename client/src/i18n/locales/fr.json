@@ -1,0 +1,292 @@
+{
+  "app": {
+    "name": "Learnify",
+    "tagline": "Apprends plus vite. Compète plus fort."
+  },
+  "nav": {
+    "dashboard": "Tableau de bord",
+    "learn": "Apprendre",
+    "contest": "Concours",
+    "tutor": "Tuteur IA",
+    "diagnostic": "Diagnostic",
+    "profile": "Profil",
+    "leaderboard": "Classement",
+    "logout": "Se déconnecter"
+  },
+  "auth": {
+    "login": "Se connecter",
+    "register": "S'inscrire",
+    "logout": "Se déconnecter",
+    "email": "E-mail",
+    "username": "Nom d'utilisateur",
+    "password": "Mot de passe",
+    "confirmPassword": "Confirmer le mot de passe",
+    "forgotPassword": "Mot de passe oublié ?",
+    "noAccount": "Pas encore de compte ?",
+    "hasAccount": "Déjà un compte ?",
+    "loginTitle": "Content de te revoir",
+    "loginSubtitle": "Connecte-toi pour continuer ta série",
+    "registerTitle": "Rejoins Learnify",
+    "registerSubtitle": "Crée ton compte et commence à apprendre",
+    "language": "Langue préférée",
+    "orContinueWith": "ou continuer avec",
+    "errors": {
+      "invalidEmail": "Adresse e-mail invalide",
+      "passwordTooShort": "Le mot de passe doit comporter au moins 6 caractères",
+      "usernameTooShort": "Le nom d'utilisateur doit comporter au moins 2 caractères",
+      "invalidCredentials": "E-mail ou mot de passe invalide",
+      "emailTaken": "E-mail déjà utilisé",
+      "usernameTaken": "Nom d'utilisateur déjà pris"
+    }
+  },
+  "dashboard": {
+    "greeting": "Salut {{name}}",
+    "tabs": {
+      "progress": "Progression",
+      "skills": "Compétences",
+      "recommendations": "Plan IA",
+      "activity": "Activité"
+    },
+    "metrics": {
+      "xp": "Points XP",
+      "score": "Score moy.",
+      "sessions": "Sessions",
+      "studyTime": "Temps d'étude",
+      "minutes": "min cette semaine"
+    },
+    "streak": {
+      "current": "Série de {{days}} jours",
+      "longest": "Record : {{days}} jours",
+      "none": "Lance ta série aujourd'hui !"
+    },
+    "level": {
+      "beginner": "Débutant",
+      "intermediate": "Intermédiaire",
+      "advanced": "Avancé",
+      "expert": "Expert",
+      "nextLevel": "{{xp}} XP pour le prochain niveau"
+    },
+    "chart": {
+      "weeklyScore": "Score hebdomadaire",
+      "score": "Score %",
+      "sessions": "Sessions"
+    },
+    "skills": {
+      "mastered": "Maîtrisé",
+      "inProgress": "En cours",
+      "needsWork": "À améliorer",
+      "noSkills": "Complète des sessions pour suivre tes compétences"
+    },
+    "recommendations": {
+      "title": "Plan d'étude IA",
+      "urgency": {
+        "high": "Priorité haute",
+        "medium": "Priorité moyenne",
+        "low": "Priorité basse"
+      },
+      "launchSession": "Lancer une session",
+      "noRecommendations": "Bravo ! Toutes tes matières sont en bonne voie.",
+      "todaysPlan": "Plan du jour",
+      "generating": "Génération de ton plan..."
+    },
+    "activity": {
+      "noActivity": "Pas encore d'activité. Lance une session !",
+      "session": "Session d'apprentissage",
+      "contest": "Concours",
+      "diagnostic": "Test de diagnostic",
+      "xpEarned": "+{{xp}} XP",
+      "score": "{{correct}}/{{total}} corrects"
+    }
+  },
+  "learn": {
+    "title": "Commencer à apprendre",
+    "subject": "Matière",
+    "chapter": "Chapitre",
+    "difficulty": {
+      "label": "Difficulté",
+      "easy": "Facile",
+      "medium": "Moyen",
+      "hard": "Difficile"
+    },
+    "questionCount": "Nombre de questions",
+    "generate": "Générer la session",
+    "generating": "Génération de ta session...",
+    "question": "Question {{current}} sur {{total}}",
+    "timeLeft": "Temps restant",
+    "submitAnswer": "Valider la réponse",
+    "correct": "Correct !",
+    "incorrect": "Incorrect",
+    "correctAnswer": "Bonne réponse",
+    "explanation": "Explication",
+    "next": "Question suivante",
+    "finish": "Terminer la session",
+    "summary": {
+      "title": "Session terminée !",
+      "score": "Ton score",
+      "xpEarned": "XP gagnés",
+      "masteryDelta": "Maîtrise",
+      "tryAgain": "Réessayer (plus difficile)",
+      "backToDashboard": "Retour au tableau de bord",
+      "reviewAnswers": "Revoir les réponses"
+    },
+    "lesson": {
+      "title": "Aperçu de la leçon",
+      "keyPoints": "Points clés",
+      "startQuiz": "Commencer le quiz"
+    }
+  },
+  "contest": {
+    "title": "Concours",
+    "create": "Créer un concours",
+    "join": "Rejoindre",
+    "joinCode": "Code d'accès",
+    "enterCode": "Entrer le code (ex. LRN-7X4K)",
+    "joinNow": "Rejoindre",
+    "lobby": {
+      "title": "Salle d'attente",
+      "waitingForHost": "En attente du créateur...",
+      "participants": "Participants",
+      "online": "En ligne",
+      "launch": "Lancer le concours",
+      "generating": "L'IA génère vos questions...",
+      "ready": "Questions prêtes !"
+    },
+    "arena": {
+      "question": "Question {{current}} sur {{total}}",
+      "timeLeft": "Temps restant",
+      "submit": "Valider",
+      "multiplier": "{{mult}}x points",
+      "leaderboard": "Classement en direct",
+      "rank": "Rang",
+      "answered": "répondues"
+    },
+    "results": {
+      "title": "Résultats finaux",
+      "podium": "Podium",
+      "yourScore": "Ton score",
+      "yourRank": "Ton rang",
+      "correct": "Bonnes réponses",
+      "timeTaken": "Temps",
+      "rematch": "Créer une revanche",
+      "share": "Partager le résultat",
+      "reviewAnswers": "Revoir les réponses",
+      "feedback": "Feedback IA",
+      "rankingTable": "Classement complet"
+    },
+    "status": {
+      "pending": "En attente",
+      "active": "En cours",
+      "finished": "Terminé"
+    },
+    "form": {
+      "step1": "Configuration",
+      "step2": "Inviter",
+      "step3": "Vérification",
+      "title": "Titre du concours",
+      "subject": "Matière",
+      "level": "Niveau",
+      "difficulty": "Difficulté",
+      "questionCount": "Questions",
+      "duration": "Durée (minutes)",
+      "questionTypes": "Types de questions",
+      "maxParticipants": "Participants max",
+      "generate": "Générer avec l'IA",
+      "codeGenerated": "Code d'accès généré !"
+    }
+  },
+  "tutor": {
+    "title": "Tuteur IA",
+    "placeholder": "Pose-moi une question...",
+    "subject": "Matière",
+    "send": "Envoyer",
+    "thinking": "Je réfléchis...",
+    "suggestions": {
+      "explain": "Explique ce concept",
+      "example": "Donne-moi un exemple",
+      "exercise": "Crée un exercice pour moi",
+      "review": "Vérifie ma compréhension"
+    },
+    "welcome": "Salut ! Je suis ton tuteur IA. Qu'est-ce que tu veux apprendre aujourd'hui ?"
+  },
+  "diagnostic": {
+    "title": "Test de diagnostic",
+    "subtitle": "Évaluons ton niveau en",
+    "start": "Commencer le diagnostic",
+    "question": "Question {{current}} sur {{total}}",
+    "analysing": "Analyse de tes résultats...",
+    "results": {
+      "title": "Ton profil",
+      "recommendedLevel": "Niveau recommandé",
+      "strengths": "Points forts",
+      "weaknesses": "Points à améliorer",
+      "feedback": "Retour personnalisé",
+      "startLearning": "Commencer à apprendre"
+    }
+  },
+  "profile": {
+    "title": "Profil",
+    "edit": "Modifier le profil",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "username": "Nom d'utilisateur",
+    "email": "E-mail",
+    "bio": "Biographie",
+    "language": "Langue d'affichage",
+    "stats": {
+      "totalXP": "XP total",
+      "contestsWon": "Concours gagnés",
+      "bestStreak": "Meilleure série",
+      "sessionsCompleted": "Sessions"
+    },
+    "achievements": "Succès",
+    "notifications": "Notifications"
+  },
+  "leaderboard": {
+    "title": "Classement",
+    "global": "Global",
+    "contests": "Concours",
+    "rank": "Rang",
+    "player": "Joueur",
+    "xp": "XP",
+    "level": "Niveau",
+    "streak": "Série",
+    "wins": "Victoires"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur est survenue",
+    "retry": "Réessayer",
+    "back": "Retour",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "share": "Partager",
+    "copy": "Copier",
+    "copied": "Copié !",
+    "darkMode": "Mode sombre",
+    "lightMode": "Mode clair",
+    "french": "Français",
+    "english": "Anglais",
+    "noData": "Pas encore de données",
+    "comingSoon": "Bientôt disponible"
+  },
+  "errors": {
+    "notFound": "Page introuvable",
+    "unauthorized": "Connecte-toi pour continuer",
+    "serverError": "Erreur serveur. Réessaie.",
+    "networkError": "Erreur réseau. Vérifie ta connexion.",
+    "generic": "Une erreur est survenue. Réessaie.",
+    "rateLimit": "Quota IA journalier atteint. Réessaie demain."
+  },
+  "toasts": {
+    "sessionComplete": "Session terminée ! +{{xp}} XP",
+    "contestJoined": "Concours rejoint !",
+    "contestCreated": "Concours créé !",
+    "profileSaved": "Profil enregistré",
+    "languageChanged": "Langue mise à jour",
+    "copied": "Copié dans le presse-papiers",
+    "error": "Une erreur est survenue"
+  }
+}
